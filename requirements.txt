@@ -5,6 +5,6 @@ PyAutoGUI
 pyperclip
 pytesseract
 pywin32
+pypiwin32
 requests
 selenium
-win32gui

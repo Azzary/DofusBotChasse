@@ -3,3 +3,10 @@
 /d.png
 /img.png
 /img2.png
+/__pycache__
+config.json
+game/__pycache__/ChasseAuTresor.cpython-311.pyc
+game/__pycache__/ChasseAuTresorResolve.cpython-311.pyc
+game/__pycache__/HavreSac.cpython-311.pyc
+game/__pycache__/Tchat.cpython-311.pyc
+game/__pycache__/zaap.cpython-311.pyc

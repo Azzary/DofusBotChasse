@@ -28,7 +28,10 @@ class ChasseAuTresorResolve():
             if (lastx, lasty) != new_pos:
                 #self.bot.Tchat.use_auto_palote(new_pos[0], new_pos[1])
                 self.get_past_value()
-                self.click_flag()      
+                self.click_flag() 
+                time.sleep(0.3) 
+                if(self.image_manager.is_in_screen(self.targets["cant_add_jalon"])):
+                    return self.bot.chasse_au_tresor.quit_chasse()    
             else:
                 lastx, lasty = self.bot.get_player_pos()
                 self.bot.x, self.bot.y = lastx, lasty
@@ -70,7 +73,7 @@ class ChasseAuTresorResolve():
             list_cross = ["top", "bottom", "right", "left"]
             phorreurs_imgs = [ v for k,v in self.targets.items() if "phorreur" in k]
             for phorreur_img in phorreurs_imgs:
-                if self.image_manager.is_in_screen(phorreur_img, 0.90):
+                if self.image_manager.is_in_screen(phorreur_img, 0.85):
                     print("phorreur FIND !!")
                     self.window_manager.click_img(self.targets["chasse_grande"], [0,0], 1)
                     self.click_flag()      
