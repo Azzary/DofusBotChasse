@@ -1,0 +1,10 @@
+jellyfish
+numpy
+opencv-contrib-python
+PyAutoGUI
+pyperclip
+pytesseract
+pywin32
+requests
+selenium
+win32gui
