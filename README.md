@@ -9,8 +9,8 @@ Dofus option:
 - ne pas afficher les coordonnées de la carte
 - interface clasique
 - havre sac clasique
-- si vous avais la motive 7 creens de votre perso en mode creature (dans target/personnageX)
-- etre en canal general (etoile blanche)
+- si vous avez la motive 7 screens de votre perso en mode creature (a placer dans target/personnageX)
+- etre en canal general (etoile blanche, pas de message)
 - optionel mode solo
 
 for install all the dependencies
