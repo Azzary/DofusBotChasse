@@ -1,9 +1,11 @@
 # DofusBotChasse
 
+The bot don't use your mouse is sending input to window  Dofus, no socket/sniffing (using win32).
+
 You need the autopilot (using a potion or digging into the game files)
 
-IMPORTANT: change 'targets/spell.png' by your spell icon.
 
+IMPORTANT: change 'targets/spell.png' by your spell icon.
 
 Dofus option:
 - Limite de passage en mode creature = 0
@@ -35,6 +37,7 @@ Important you needed the "Champs de Cania" zaap (oui quand meme)
 
 Not having a hunt is easier, because we don't see anything in the console with the selenium logs, otherwise when you could write in console 1 to start at the current position(player), else at the position of the hunt.
 
+![Presentation](Presentation.png)
 
 # Error
 "ModuleNotFoundError: No module named 'win32xxx'"
