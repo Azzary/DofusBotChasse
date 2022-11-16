@@ -2,6 +2,8 @@
 
 You need the autopilot (using a potion or digging into the game files)
 
+IMPORTANT: change 'targets/spell.png' by your spell icon.
+
 
 Dofus option:
 - Limite de passage en mode creature = 0
